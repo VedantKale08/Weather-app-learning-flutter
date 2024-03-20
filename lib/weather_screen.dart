@@ -56,7 +56,9 @@ class _WeatherScreenState extends State<WeatherScreen> {
             padding: EdgeInsets.symmetric(horizontal: 15),
             icon: const Icon(Icons.refresh),
             onPressed: () {
-              setState(() {});
+              setState(() {
+                weather = getCurrentWeather();
+              });
             },
           )
         ],
