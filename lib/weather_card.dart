@@ -24,7 +24,7 @@ class WeatherCard extends StatelessWidget {
               height: 10,
             ),
             Text(
-              "$temp° C",
+              "$temp K",
               style: TextStyle(fontSize: 18),
             )
           ],
